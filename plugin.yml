@@ -1,0 +1,12 @@
+main: at.weini.Main
+name: Quarry
+version: 0.0.1
+description: Quarry Plugin
+commands:
+    quarry:
+        description: Quarry plugin
+        usage: /<command> <create/chest/stop/remove>
+permissions:
+    quarry:
+        description: Gives permissions to the command
+        default: op
